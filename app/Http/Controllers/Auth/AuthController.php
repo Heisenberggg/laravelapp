@@ -67,4 +67,8 @@ class AuthController extends Controller
         echo 'sss';
         echo 'fff';
     }
+    public function getB(){
+        echo 'sss';
+        echo 'fff';
+    }
 }
