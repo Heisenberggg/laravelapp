@@ -63,4 +63,13 @@ class AuthController extends Controller
             'password' => bcrypt($data['password']),
         ]);
     }
+
+    public function getA(){
+        echo 'sss';
+        echo 'fff';
+    }
+    public function getB(){
+        echo 'sss';
+        echo 'fff';
+    }
 }
